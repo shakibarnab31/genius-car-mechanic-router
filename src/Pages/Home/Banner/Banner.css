@@ -1,0 +1,8 @@
+
+.banner{
+    background-image:url('../../../images/banner/banner2.jpg');
+    width: 100%;
+    height: 500px;
+    background-size: relative;
+    background-repeat: no-repeat;
+}

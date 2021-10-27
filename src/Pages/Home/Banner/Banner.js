@@ -3,21 +3,33 @@ import { Carousel } from 'react-bootstrap';
 import banner1 from '../../../images/banner/banner1.jpg';
 import banner2 from '../../../images/banner/banner2.jpg';
 import banner3 from '../../../images/banner/banner3.jpg';
+import banner4 from '../../../images/banner/banner1.jpg'
+import './Banner.css'
 
 const Banner = () => {
     return (
-        <>
-            <Carousel>
+        <div className="banner">
+            <div className="d-flex justify-content-end" >
+                <div className="m-5 p-5">
+                    <h1>Genius Car Mechanics</h1>
+                    <h2>Best Mechanics in Town</h2>
+
+                </div>
+            </div>
+            {/* <Carousel>
                 <Carousel.Item>
+                    <Carousel.Caption>
+                        <div className="p-5">
+                            <h1 className="fs-1">First slide label</h1>
+                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        </div>
+                    </Carousel.Caption>
                     <img
                         className="d-block w-100"
                         src={banner1}
                         alt="First slide"
                     />
-                    <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </Carousel.Caption>
+
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
@@ -43,8 +55,8 @@ const Banner = () => {
                         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
-            </Carousel>
-        </>
+            </Carousel> */}
+        </div>
     );
 };
 
